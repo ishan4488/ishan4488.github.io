@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
 
 #Theme
-theme: minimal-mistakes-jekyll
+remote_theme: minimal-mistakes-jekyll
 
 
 # Exclude from processing.
