@@ -26,7 +26,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -56,8 +56,8 @@ plugins:
 
 author:
   name   : "Ishan Rastogi"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Software Developer"
+  avatar : "/assets/images/0.jpeg"
+  bio    : "Co-Founder, BI Helper"
   links:
     - label: "bihelper.tech"
       icon: "fas fa-fw fa-link"
@@ -71,7 +71,7 @@ author:
 
 footer:
   links:
-    - label: "Website"
+    - label: "BI Helper"
       icon: "fas fa-fw fa-link"
       url: "https://bihelper.tech"
     - label: "LinkedIn"
@@ -101,9 +101,9 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# category_archive:
+#   type: liquid
+#   path: /categories/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
