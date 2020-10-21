@@ -1,5 +1,5 @@
 ---
-title: "Auto-Scaling Druid with Kubernetes"
+title: "Auto Scaling Druid with Kubernetes"
 date: 2020-10-15
 categories:
   - Druid
